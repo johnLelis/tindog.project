@@ -1,0 +1,170 @@
+body {
+	font-family: "Montserrat", sans-serif;
+	text-align: center;
+}
+
+h1 {
+	font-size: 3.5rem;
+	line-height: 1.5;
+	font-weight: 900;
+}
+h2 {
+	font-size: 2.5rem;
+	font-weight: bold;
+	line-height: 1.5;
+}
+h3 {
+	font-weight: bold;
+}
+p {
+	color: #8f8f8f;
+}
+#title {
+	background-color: #ff4c68;
+	color: #fff;
+}
+.big-heading{
+	text-align: left;
+}
+.container-fluid {
+	padding: 3% 15% 7%;
+}
+.navbar {
+	padding: 0 0 4.5rem;
+}
+.navbar-brand {
+	font-family: Ubuntu;
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+.nav-item {
+	padding: 0 18px;
+}
+.nav-link {
+	font-size: 1.2rem;
+}
+
+.download-button {
+	margin: 5% 3% 5% 0;
+}
+.phone {
+	transform: rotate(25deg);
+	width: 60%;
+	position: absolute;
+	right: 30%;
+}
+
+/* FEATURES */
+#features {
+	padding: 7% 15%;
+	background-color: white;
+	position: relative;
+}
+.feats {
+	padding: 5%;
+}
+.feats-icon {
+	color: #ef8172;
+}
+.feats-icon:hover {
+	color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+	padding: 7% 15%;
+
+	background-color: #ef8172;
+	color: #fff;
+}
+.testimonial-img {
+	width: 10%;
+	border-radius: 100%;
+	margin: 20px;
+}
+.carousel-item {
+	padding: 7% 15%;
+}
+
+/* Press Section */
+#press {
+	background-color: #ef8172;
+
+	padding-bottom: 3%;
+}
+.press-logo {
+	width: 15%;
+	margin: 20px 20px 50px;
+}
+
+/* PRICING */
+#pricing {
+	padding: 100px;
+}
+.pricing-column {
+	padding: 3% 2%;
+}
+
+#cta {
+	background-color: #ff4c68;
+	color: white;
+	text-align: center;
+	padding: 5% 30%;
+}
+.cta-heading {
+	font-size: 3rem;
+	line-height: 1.5;
+}
+#footer {
+	text-align: center;
+	padding: 2% 15%;
+}
+.footer-icon {
+	padding: 5px;
+	margin: 10px 10px;
+	color: rgb(58, 46, 46);
+}
+/* If screen size is 993px wide, or less,*/
+@media (max-width: 993px) {
+	.tindog {
+		font-size: 2.5rem;
+	}
+	
+	.phone {
+		position: static;
+		transform: rotate(0);
+	}
+	.nav-item {
+		margin-left: 70%;
+		text-align: left;
+		line-height: 1;
+	}
+	h1,
+	h2 {
+		font-size: 2rem;
+	}
+}
+/* If screen size is more than 340px wide*/
+@media (min-width: 340px) {
+	#cta {
+		padding: 5% 10%;
+	}
+
+	#testimonials {
+		padding: 7% 1%;
+	}
+	.cta-heading {
+		font-size: 2rem;
+	}
+	#pricing {
+		padding: 30px;
+		t
+	}
+}
+/* 
+HEIRARCHICAL SELECTORS
+COMBINE ID'S WITH classes
+#title .container-fluid{
+
+} */
